@@ -11,6 +11,7 @@ struct test
 
 static const struct test tests[] = 
   {
+	{"alarm-mega",test_alarm_mega},  
     {"alarm-single", test_alarm_single},
     {"alarm-multiple", test_alarm_multiple},
     {"alarm-simultaneous", test_alarm_simultaneous},
@@ -99,4 +100,5 @@ pass (void)
 {
   printf ("(%s) PASS\n", test_name);
 }
+
 
